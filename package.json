@@ -2,9 +2,9 @@
   "name": "meubazartech",
   "version": "1.0.0",
   "description": "Website do meubazartech",
-  "main": "./src/server.js",
+  "main": "./src/server/index.js",
   "scripts": {
-    "dev": "node ./src/server.js"
+    "dev": "node ./src/server/index.js"
   },
   "repository": {
     "type": "git",
