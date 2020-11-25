@@ -1,0 +1,28 @@
+{
+  "name": "meubazartech",
+  "version": "1.0.0",
+  "description": "Website do meubazartech",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next ./src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/felipe0liveira/meubazartech.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/felipe0liveira/meubazartech/issues"
+  },
+  "homepage": "https://github.com/felipe0liveira/meubazartech#readme",
+  "dependencies": {
+    "next": "^10.0.3",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "prettier": "^2.2.0"
+  }
+}
