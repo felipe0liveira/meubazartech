@@ -5,6 +5,8 @@ const dev = process.env.NODE_ENV !== 'production'
 const app = next({ dev })
 const handle = app.getRequestHandler()
 
+const DEFAULT_API_PREFIX = '/api/v1'
+
 app
   .prepare()
   .then(() => {
