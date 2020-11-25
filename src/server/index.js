@@ -16,6 +16,9 @@ app
       return handle(req, res)
     })
 
+    const productsRoute = require('@routes/products.route')
+    server.use(`${DEFAULT_API_PREFIX}/products`, productsRoute)
+
     server.listen(3000, (err) => {
       if (err) throw err
       console.log('> Ready on http://localhost:3000')
