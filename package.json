@@ -4,7 +4,13 @@
   "description": "Website do meubazartech",
   "main": "./src/server/index.js",
   "scripts": {
-    "dev": "node ./src/server/index.js"
+    "dev": "node ./src/server/index.js",
+    "postinstall": "link-module-alias"
+  },
+  "_moduleAliases": {
+    "@server": "src/server",
+    "@controllers": "src/server/controllers",
+    "@routes": "src/server/routes"
   },
   "repository": {
     "type": "git",
@@ -24,6 +30,7 @@
     "react-dom": "^17.0.1"
   },
   "devDependencies": {
+    "link-module-alias": "^1.2.0",
     "prettier": "^2.2.0"
   }
 }
